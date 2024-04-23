@@ -12,6 +12,7 @@
       height: 200px;
       background-color: rgb(249, 164, 7);
       text-align:center;
+      border-bottom: 10px solid rgba(191, 134, 2, 0.815);
   }
   #menu {
     height: 600px;
@@ -20,6 +21,7 @@
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    border-bottom: 10px solid rgb(213, 185, 120, 0.815);
 
 }
 
@@ -31,6 +33,7 @@
     float: left;
     margin-top: 10px;
    margin-left: 5px;
+   border-bottom: 10px solid rgb(213, 185, 120, 0.815);
 }
 
 #lado {
@@ -41,6 +44,7 @@
     margin-left: 5px;
     margin-top:5px;
     margin-block-end: 5px;
+    border-bottom: 10px solid rgb(213, 185, 120, 0.815);
 }
 
 .button {
@@ -67,7 +71,7 @@ body{
     width: 100%;
     border-radius: 50PX;
     text-align: center;
-    border-style: hidden;
+    box-shadow: 10px 10px 5px rgb(153, 141, 31);
 }
 #rodape{
     height:200px;
@@ -76,11 +80,13 @@ body{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    border-bottom: 10px solid rgb(213, 185, 120, 0.815);
+      
 }
 h1 {
-    text-shadow: 2px 2px;
+    text-shadow: 0 0 3px #5a6214, 0 0 5px #f8f007;
   }
   h2 {
-    text-shadow: 2px 2px;
+    text-shadow: 0 0 3px #5f640b, 0 0 5px #dfb210;
   }
 
